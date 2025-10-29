@@ -1,7 +1,3 @@
-//Se debe ver igual en todos los navegadores (Firefox, Opera, Chrome y Safari)
-//Todas las funciones tienen que estar documentadas, explicando brevemente su funcionamiento.
-// Se debe especificar el tipo de dato de las variables.
-
 document.addEventListener('DOMContentLoaded', () => {
 
     /* VARIABLES */
@@ -116,7 +112,7 @@ document.addEventListener('DOMContentLoaded', () => {
         arrayBotones = todosTags.filter((tag, i) => todosTags.indexOf(tag) === i);
         return arrayBotones;
     }
-
+    //Creamos y añadimos botones al DOM
     const pintarBotones = (array) => {
         array.forEach((tag) => {
             const boton = document.createElement('BUTTON');
@@ -129,7 +125,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         btnTags.append(fragment);
     }
-
+    //Filtramos las imagenes que coinciden con la etiqueta seleccionada
     const filtrarImg = (tag) => {
         tarjetasElejidas = arrayTarjetas.filter((tarjeta) => tarjeta.tags.includes(tag));
         let sumTags = tarjetasElejidas.length;
@@ -142,7 +138,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         return tarjetasElejidas;
     }
-
+    //Creamos y añadimos imagenes y sus títulos al DOM
     const pintarImg = (array) => {
         array.forEach((tarjeta, i) => {
             const articleElemento = document.createElement('ARTICLE');
