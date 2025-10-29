@@ -15,42 +15,30 @@
 
     <main class="container flexContainer">
         <h1>FOTOS</h1>
-        <section class="btn-tags flexContainer">
-            <button class="btn">botón1</button>
-            <button class="btn">botón2</button>
-            <button class="btn">botón3</button>
-            <button class="btn">botón4</button>
-            <button class="btn">botón5</button>
+        <section class="btn-tags flexContainer" id="btn-tags">
+            <!-- Aquí se van a crear los botones según las etiquetas (tags) que tienen las imagenes en común -->
+            <!-- <button class="btn" id="nombre-del-tag">Nombre del tag</button> -->
         </section>
 
-        <p>Se han encontrado <span class="negrita">3</span> imágenes con el tag <span class="negrita">mar</span></p>
-        <div class="portada flexContainer">
-            <article>
-                <h3>título del viaje 1</h3>
-                <div class="img-principal"><img src="assets/img/viajes/viajes-1.jpg" alt=""></div>
-            </article>
+        <p id="resultado"></p>
+        <div class="portada flexContainer" id="portada">
+        <!--<article class="portada-article">
+                <h3>Título</h3>
+                <div class="img-principal">
+                    <img />
+                </div>
+            </article> -->
         </div>
 
-        <h2>Imagenes relacionadas</h2>
-        <div class="galeria flexContainer">
-            <article>
-                <h3>título del viaje 2</h3>
-                <div><img src="assets/img/viajes/viajes-2.jpg" alt=""></div>
-            </article>
-            <article>
-                <h3>título del viaje 2</h3>
-                <div><img src="assets/img/viajes/viajes-3.jpg" alt=""></div>
-            </article>
-            <article>
-                <h3>título del viaje 2</h3>
-                <div><img src="assets/img/viajes/viajes-3.jpg" alt=""></div>
-            </article>
-            <article>
-                <h3>título del viaje 2</h3>
-                <div><img src="assets/img/viajes/viajes-3.jpg" alt=""></div>
-            </article>
+        <h2 id="otras-imgs">Imagenes relacionadas</h2>
+        <div class="galeria flexContainer" id="galeria">
+        <!-- Aquí se van a crear las imagenes según las etiquetas (tags) elegidas -->
+        <!--<article>
+                <h3>Título</h3>
+                <div><img /></div>
+            </article> -->
+            
         </div>
-
     </main>
 
     <footer class="fullContainer flexContainer">

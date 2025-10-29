@@ -2,7 +2,7 @@
 
 ## Enunciado:
 
- - Crear una web app con una serie de categorías.
+ - Crear una web app con una serie de categorías (tags).
  - Cuando se haga un click en alguna de las categorías, debe mostrar todas las imágenes de dicha categoría, una de ellas en grande como principal y las demás como relacionadas mas pequeñas.
  - Al hacer un click sobre una imagen relacionada, se intercambiará por la grande.
 
@@ -11,3 +11,5 @@
  - HTML
  - CSS
  - JavaScript
+
+ ![Aplicación Web para filtrar las imagenes](assets/img/web-app-filtrar-fotos.png)
