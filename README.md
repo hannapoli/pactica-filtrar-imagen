@@ -12,4 +12,6 @@
  - CSS
  - JavaScript
 
+ El proyecto se puede ver [aquí](https://hannapoli.github.io/pactica-filtrar-imagen/).
+
  ![Aplicación Web para filtrar las imagenes](assets/img/web-app-filtrar-fotos.png)
